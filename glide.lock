@@ -1,0 +1,72 @@
+hash: 7d9b08470796ff3d59f58cd2ff69ac70b7be4563d1bf24cd90547439cd578504
+updated: 2016-09-05T16:19:27.498866841-04:00
+imports:
+- name: github.com/akutz/gofig
+  version: 697c16916338166671910eeaccc50f21e3c10726
+- name: github.com/akutz/golf
+  version: e26bdd995cb746e431d42ea303ebe7622389d29f
+- name: github.com/akutz/goof
+  version: ea06624ca980bae80c1b615b8417723436d235ab
+- name: github.com/akutz/gotil
+  version: 6fa2e80bd3ac40f15788cfc3d12ebba49a0add92
+- name: github.com/BurntSushi/toml
+  version: 99064174e013895bbd9b025c31100bd1d9b590ca
+- name: github.com/emccode/libstorage
+  version: 7d9a298ceb995e3b91a4510a5f18caba3666acd9
+  subpackages:
+  - api/client
+  - api/context
+  - api/registry
+  - api/types
+  - api/utils
+  - api/utils/config
+  - client
+  - drivers/integration/docker
+  - drivers/os/darwin
+  - drivers/os/linux
+  - drivers/storage/libstorage
+  - drivers/storage/vfs
+  - drivers/storage/vfs/client
+  - imports/config
+  - imports/local
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/kardianos/osext
+  version: c2c54e542fb797ad986b31721e1baedf214ca413
+  repo: https://github.com/kardianos/osext.git
+  vcs: git
+- name: github.com/kr/pretty
+  version: cfb55aafdaf3ec08f0db22699ab822c50091b1c4
+- name: github.com/kr/text
+  version: 7cafcd837844e784b526369c9bce262804aebc60
+- name: github.com/magiconair/properties
+  version: 61b492c03cf472e0c6419be5899b8e0dc28b1b88
+- name: github.com/mitchellh/mapstructure
+  version: ca63d7c062ee3c9f34db231e352b60012b4fd0c1
+- name: github.com/Sirupsen/logrus
+  version: 3ec0642a7fb6488f65b06f9040adc67e3990296a
+- name: github.com/spf13/cast
+  version: e31f36ffc91a2ba9ddb72a4b6a607ff9b3d3cb63
+- name: github.com/spf13/jwalterweatherman
+  version: 33c24e77fb80341fe7130ee7c594256ff08ccc46
+- name: github.com/spf13/pflag
+  version: b084184666e02084b8ccb9b704bf0d79c466eb1d
+  repo: https://github.com/spf13/pflag
+- name: github.com/spf13/viper
+  version: 317ec73d0d7507658ee3be15866b445d6d921848
+  repo: https://github.com/akutz/viper.git
+- name: golang.org/x/net
+  version: 6250b412798208e6c90b03b7c4f226de5aa299e2
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: golang.org/x/sys
+  version: a646d33e2ee3172a661fc09bca23bb4889a41bc8
+  subpackages:
+  - unix
+- name: gopkg.in/fsnotify.v1
+  version: a8a77c9133d2d6fd8334f3260d06f60e8d80a5fb
+- name: gopkg.in/yaml.v2
+  version: b4a9f8c4b84c6c4256d669c649837f1441e4b050
+  repo: https://github.com/akutz/yaml.git
+testImports: []
